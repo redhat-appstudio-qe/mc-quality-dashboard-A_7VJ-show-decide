@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-mksc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-ituo-tenant/mc-quality-dashboard/backend-quality-dashboard-mksc@sha256:5c25f462f1e73bee74488c98f211e82a610f14c0e9f45855c53243e68065ee2b
         imagePullPolicy: Always
         name: container-image
         ports:
